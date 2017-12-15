@@ -5,7 +5,7 @@ import string
 # Alphabet list
 ALPHA = list(string.ascii_letters)
 
-class CesarCipher(object):
+class CaesarCipher(object):
     def __init__(self, key):
         if key not in ALPHA:
             raise Exception('Key must be a valid alphabet character.')
@@ -41,7 +41,7 @@ class CesarCipher(object):
         return "".join([e for i, e in enumerate(decrypted)])
 
 if __name__ == '__main__':
-    cesarCipher = CesarCipher('f')
-    ciphertext = cesarCipher.encrypt('mypasswordz')
+    caesarCipher = CaesarCipher('f')
+    ciphertext = caesarCipher.encrypt('mypasswordz')
     print(ciphertext)
-    print(cesarCipher.decrypt(ciphertext))
+    print(caesarCipher.decrypt(ciphertext))
