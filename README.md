@@ -1,5 +1,5 @@
 # Ciphers
-Some old ciphers written on Python.
+Some old ciphers written in Python.
 
 * Caeser Cipher - https://en.wikipedia.org/wiki/Caesar_cipher
 * Atbash Cipher - https://pt.wikipedia.org/wiki/Atbash
